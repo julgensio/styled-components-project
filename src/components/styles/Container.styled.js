@@ -1,9 +1,10 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
-export const Container = styled.div `
-    width: 1000px;
-    max-width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-
-`
+// ! Main style container
+export const Container = styled.div`
+	width: 80rem;
+	max-width: 100%;
+	padding: 0 60px;
+	margin: 0 auto;
+	min-height: 100vh;
+`;
