@@ -5,7 +5,6 @@ import Header from './components/Header';
 import ThemeProv from './components/styles/ThemeProv.styled';
 import content from './content';
 
-console.log(1);
 
 // ! Main app
 function App() {
