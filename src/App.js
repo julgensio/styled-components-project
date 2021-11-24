@@ -1,34 +1,25 @@
-import {ThemeProvider} from 'styled-components';
-import {Container} from './components/styles/Container.styled'
-import Header from './components/Header'
-import GlobalStyle from './components/styles/Global'
+import { ThemeProvider } from 'styled-components';
+import { Container } from './components/styles/Container.styled';
+import GlobalStyle from './components/styles/Global';
+import Header from './components/Header';
+import ThemeProv from './components/styles/ThemeProv.styled';
+import content from './content';
 
+console.log(1);
+
+// ! Main app
 function App() {
-
-    const theme = {
-        text: {
-            header: '#fff'
-        },
-
-        //
-        color: {
-            header: '#FF9A8B',
-            body: '#f8f8f8',
-            footer: '#00333'
-        }
-
-    }
-    return (
-        <ThemeProvider theme={theme}>
-            <>
-                <GlobalStyle/>
-                <Header/>
-                <Container>
-                    <h1>Hello World</h1>
-                </Container>
-            </>
-        </ThemeProvider>
-    );
+	return (
+		<ThemeProvider theme={ThemeProv}>
+			<>
+				<GlobalStyle />
+				<Header />
+				<Container> 
+					{content.map((item, index) => (<p>{item.title}</p>))} 
+				</Container>
+			</>
+		</ThemeProvider>
+	);
 }
 
 export default App;
