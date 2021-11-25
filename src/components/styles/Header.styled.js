@@ -11,18 +11,18 @@ export const Nav = styled.nav`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 6rem;
+	margin-bottom: 9rem;
 
 	@media (max-width: ${({ theme }) => theme.mobile}) {
 		flex-direction: column;
-		margin-bottom: 1rem;
+		/* margin-bottom: 1rem; */
 	}
 `;
 
 export const Logo = styled.img`
-	width: 20rem;
+	width: 15rem;
 	@media (max-width: ${({ theme }) => theme.mobile}) {
-		width: 50%;
+		width: 15rem;
 		margin-bottom: 3rem;
 	}
 `;
@@ -31,9 +31,8 @@ export const Image = styled.img`
 	width: 50%;
 	margin-left: 40px;
 	@media (max-width: ${({ theme }) => theme.mobile}) {
-        width: 90%;
+		width: 90%;
 		margin: 2.5rem 0 1.875rem;
-    
 	}
 `;
 

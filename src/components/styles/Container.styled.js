@@ -8,3 +8,14 @@ export const Container = styled.div`
 	margin: 0 auto;
 	min-height: 100vh;
 `;
+
+// ! Override Container styles for footer
+export const FooterTag = styled(Container)`
+	min-height: ${({ height }) => height || '0'};
+
+	@media (max-width: ${({ theme }) => theme.mobile}) {
+		img {
+			width: 90%;
+		}
+	}
+`;

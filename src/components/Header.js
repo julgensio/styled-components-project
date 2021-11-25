@@ -17,13 +17,13 @@ export default function Header() {
 				<Nav>
 					<Logo src='./images/Reveal-01.svg' alt='' />
 
-					<Button>Try For Free</Button> 
+					<Button>Try For Free</Button>
 				</Nav>
 				<Flex>
 					<div>
-						<h1>Design Your Way Own Dimension of Styling</h1>
+						<h1>Design Your own Website</h1>
 						<Paragraph>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis</p>
+							Building your website with a few clicks work together as a team
 						</Paragraph>
 						<Button bg='#32d9d9' color='#fff'>
 							Get stared for Free

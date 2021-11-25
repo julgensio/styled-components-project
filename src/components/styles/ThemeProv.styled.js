@@ -1,5 +1,3 @@
-// import styled from "styled-components"
-
 // ! Main colors
 const ThemeProv = {
 	// * Text colors
@@ -11,9 +9,10 @@ const ThemeProv = {
 	color: {
 		header: '#FF9A8B',
 		body: '#f8f8f8',
-		footer: '#00333',
+		footer: '#ff9a8b',
 	},
 	mobile: '48rem',
+	display: 'flex',
 };
 
 export default ThemeProv;
