@@ -1,3 +1,4 @@
+import SocialIcons from './SocialIcons';
 import { FooterTag } from './styles/Container.styled';
 import { Flex } from './styles/Flex.styled';
 import { StyledFooter } from './styles/Footer.styled';
@@ -27,7 +28,7 @@ export default function Footer() {
 						<li>Blog</li>
 						<li>Contact Us</li>
 					</ul>
-					{/* Social icons */}
+					<SocialIcons />
 				</Flex>
 				<p>&copy; 2021 Reveal all rights reserved</p>
 			</FooterTag>
